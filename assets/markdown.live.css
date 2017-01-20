@@ -1,16 +1,15 @@
-#markdownpreview {
-  padding: 5%;
-  width: 90%;
-  min-height: 200px;
-  max-height: 900px;
-  overflow: scroll;
-  display: none;
-  border-radius: 5px;
-  margin-top: 5px;
-  border: 1px solid #DDD;
+.md-preview-output {
+	box-sizing: border-box;
+	padding: 5%;
+	width: 100%;
+	overflow: scroll;
+	display: none;
+	border-radius: 5px;
+	margin-top: 5px;
+	border: 1px solid #DDD;
 }
-#markdownpreview h2,
-#markdownpreview h1 {
-  margin: 5px 0;
-  padding: 0;
+.md-preview-output h2,
+.md-preview-output h1 {
+	margin: 5px 0;
+	padding: 0;
 }
